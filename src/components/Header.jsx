@@ -154,7 +154,7 @@ const user=useSelector(selectUser);
             <h3>Add+</h3>
           </div>
           <div className="modal-info">
-            <Avatar />
+            <Avatar src={user?.photo} />
             <div className="modal-scope">
               <PublicIcon />
               <p>public</p>
