@@ -19,15 +19,20 @@
     justify-content: center;
 }
 
-@media screen and (min-width: 640px) {
-.quora-contents{
-    display: grid;
-    grid-template-columns: auto auto;
+@media screen and (max-width: 640px) {
+    .quora-contents {
+        display: grid;
+        grid-template-columns: auto auto;
 
-}
-.widget-div-main{
-    display: none;
-}
+    }
+
+    .widget-div-main {
+        display: none;
+    }
+
+    .quora-content {
+        padding: 20px 0px;
+    }
 }
 
 /* @media (min-width:960px) { body {font-size:1.2rem;} }
