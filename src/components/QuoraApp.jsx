@@ -13,7 +13,7 @@ export const QuoraApp = () => {
           <div className="quora-contents">
             <SideBar/>
             <Feed/>
-            <Widget/>
+            <Widget className='widget-div-main'/>
           </div>
         </div>
 
