@@ -2,14 +2,14 @@ import React, { useEffect, useState } from 'react'
 import { QuoraBox1 } from './QuoraBox1'
 import { Post } from './Post'
 import axios from 'axios';
-import "./Css/Quora.css"
-import './Css/Feed.css'
+import "./Css/Quora.css";
+import './Css/Feed.css';
 
 export const Feed = () => {
   const [posts,setposts]=useState([])
   useEffect(()=>{
    axios.get('https://quoranemobackend.onrender.com/question').then((res)=>{
-       setposts(res.data);
+       setposts(res.data.reverse());
      console.log(res.data);
    }).catch((e)=>{
     console.log(e)
