@@ -9,6 +9,8 @@
     border-radius: 10px;
     border-bottom: 1px solid grey;
     max-width: 100%;
+    position: sticky;
+    top: 0;
     /* box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);; */
 }
 .header-content{
