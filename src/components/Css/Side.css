@@ -1,0 +1,39 @@
+.sideBar{
+    margin-top: 10px;
+    flex: 0.2;
+    
+}
+
+.sidebarOptions{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    left: 10px;
+    top: 100px;
+}
+.sidebarOption img{
+  width: 30px;
+  border-radius: 10px;
+  border: sloid black 1px;
+  height: 30px;
+  margin-left: 20px;
+}
+.sidebarOption{
+    display: flex;
+    justify-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.sidebarOption:hover{
+    background-color: rgb(211,211,211);
+    border-radius: 5px;
+
+}
+.widget-div{
+   margin-top: 100px;
+}
+.widget-content{
+    position: sticky;
+    top: 50px;
+    right: 30px;
+}

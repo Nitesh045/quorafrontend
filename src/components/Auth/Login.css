@@ -1,0 +1,32 @@
+/* body{
+    text-align: center;
+} */
+.container-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.login-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.login-details img{
+    width: 200px;
+    object-fit: contain;
+    margin: 20px;
+}
+.login-details button{
+    padding: 10px;
+    margin: 50px 0px;
+    background-color: black;
+    color: antiquewhite;
+    outline: none;
+    border-radius:3px ;
+    font-family: monospace;
+}
+.login-details button:hover{
+    color: black;
+}

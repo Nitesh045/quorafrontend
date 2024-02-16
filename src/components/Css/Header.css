@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.quorahedear{
+    background-color: white;
+    border-radius: 10px;
+    border-bottom: 1px solid grey;
+    max-width: 100%;
+    /* box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);; */
+}
+.header-content{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0px;
+    height: 60px;
+}
+.header-logo{
+    display: flex;
+    justify-content: space-around;
+}
+.header-logo > img{
+  margin-top: -10px;
+}
+/* .header-icons{
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-left: -80px;
+}
+ */
+ .icon{
+   margin-top: 10px;
+   margin-right: 20px;
+   width: 34px;
+   height: 34px;
+}
+.icon-h{
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 34px;
+    height: 34px; 
+}
+.input-header{
+    display: inline-flex;
+    height: fit-content;
+    border: 1px solid rgb(76, 74, 78);
+    outline: red;
+    margin-left: -20px;
+    border-radius: 10px;
+}
+.input-header input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    padding: 0px;
+    font-weight: bold;
+
+}
+.icon:hover{
+    cursor: pointer;
+    background-color: rgb(189, 180, 180);
+
+}
+.icon-p{
+    position: absolute;
+    top: 60px;
+    text-align: start;
+    margin-left: -10px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(22, 22, 22);
+    padding: 2px;
+}
+/* styling modal ...........................here */
+.motal-title{
+    width:500px;
+    height: auto;
+    border-top: 1px soli grey;
+}
+.modal-info{
+    margin-top: 20px;
+    display: flex;
+
+}
+.modal-scope{
+    margin-left: 10px;
+    display: flex;
+    background-color: rgb(197, 192, 192);
+    padding: 10px 0px 0px 10px;
+    border-radius: 20px;
+}

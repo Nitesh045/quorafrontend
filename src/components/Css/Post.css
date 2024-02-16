@@ -1,0 +1,119 @@
+.post {
+    width: 100%;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-items: inherit;
+    position: sticky;
+
+}
+
+.post-info {
+    display: flex;
+    padding: 20px;
+    padding-left: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.post-info h4 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.post-info small {
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.post-body {
+    background-color: white;
+    margin-top: -5px;
+
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.post-body p {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* //footer upword and downdword style */
+.post-footer {
+    display: flex;
+    background-color: white;
+}
+
+.post-footerAction{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.span-icons {
+    background-color: rgb(210, 202, 202);
+
+    text-align: center;
+    padding: 10px 10px;
+
+    border-radius: 20px;
+    
+}
+
+
+
+.answer-pop {
+    background-color: white;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    color: grey;
+}
+
+/* Answer div styling here  */
+.post-answer {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+
+}
+
+.post-answerd {
+    margin-top: 10px;
+    display: flex;
+}
+
+.post-answeInfo {
+    display: flex;
+}
+
+.post-answeInfo p {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.post-answeInfo span {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.img-div-question{
+    background-color: white;
+    width: 100%;
+}
+/* Modal styling...................................here */
+.modal-style {
+    position: sticky;
+    top: 0;
+    left: 30%;
+    width: 80vb !important;
+    height: 70vh !important;
+}
+

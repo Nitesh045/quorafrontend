@@ -1,0 +1,58 @@
+.quoraBox{
+    display: flex;
+    background-color: white;
+    min-width: fit-content;
+    padding: 30px;
+
+}
+.inputBox input{
+    width: 80vb;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(184, 178, 178);
+   border: 1px solid;
+   outline-color: aqua;
+   font-weight: bold;
+   padding-left: 10px;
+   margin-right: 20px;
+   border-color: brown;
+
+
+}
+.quoraBox:hover{
+    border: solid yellow 1px;
+}
+/* making responsive */
+@media screen and (max-width: 600px) {
+    .inputBox input{
+        width: 200px;
+
+    }
+    .inputBox{
+        width: 250px;
+    }
+    body{
+        font-size: small;
+        margin: 0;
+        padding: 0;
+    }
+    .header-logo img{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .modal-input{
+        width: 100px;
+        margin-left: 0px;
+    }
+    .quorahedear{
+        min-width: auto;
+    }
+    
+    .header-logo{
+        display: flex;
+        
+    }
+}
