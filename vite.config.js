@@ -6,5 +6,10 @@ export default defineConfig({
   plugins: [react()],
   build: {
     chunkSizeWarningLimit: 100000000
-},
+  },
+  server: {
+    host: true,
+    strictPort: true,
+    port: 8000,
+    },
 })
